@@ -107,8 +107,8 @@ function HomePage() {
             <section className="home-section2 h-75">
                 <div className="container">
                     <div className=" row">
-                        <div className="col p-3">
-                            <img src={groupImage} className="img rounded-1" alt="" />
+                        <div className="col p-3 ">
+                            <img src={groupImage} className="img places-img rounded-1 object-fit-contain " alt="" />
                         </div>
                         <div className="col p-2">
                             <p className=" count">
